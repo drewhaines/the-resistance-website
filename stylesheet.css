@@ -373,3 +373,7 @@
 .no_underline{
   text-decoration: none !important;
 }
+
+.white_background{
+  background-color: white !important;
+}
