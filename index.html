@@ -71,7 +71,7 @@
     <div class="row">
       <div class="col-xs-10 col-xs-offset-1 col-lg-6 col-lg-offset-3  text-center">
         <div class="space-10"></div>
-    	  <p class="bigger bold">The Resistance Drone is an autonomous 3DR Solo Drone programmed to deliver light payloads to locations specified by GPS. A Pixy Cam and Raspberry Pi are used for accuracy to get the drone close to the target. Once over the target, the drone can drop its payload by rotating a servo motor.</p>
+    	  <p class="bigger bold">The Resistance Drone is an autonomous 3DR Solo Drone programmed to deliver light payloads to locations specified by GPS. A vision sensor and single-board computer are used for accuracy to get the drone close to the target. Once over the target, the drone can drop its payload by rotating a servo motor.</p>
         <br>
         <p class="bigger bold">To find out more, check out our <span><a class="no_underline" target="_blank" href="https://github.com/drewhaines/resistance-drone">GitHub Page <span><i class="fa fa-github" aria-hidden="true"></span></i></a></span>.
         </p>
@@ -133,7 +133,7 @@
       </div>
       <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3 text-center">
         <br>
-        <p class="bigger">This is our first 3D-printed version we had for our dispenser. The cylindrical dispenser is designed to hold three objects that are 		intended to be delivered with one of its quarter sections left open. As the walls rotate 90 degrees, the walls will push the payload towards the open 		quarter section to be dropped.</p>
+        <p class="bigger">This is our first 3D-printed version we had for our dispenser. The cylindrical dispenser is designed to hold three objects that are intended to be delivered with one of its quarter sections left open. As it rotates 90 degrees, the walls will push the payload towards the open quarter section to be dropped.</p>
         <br>
       </div>
 
@@ -183,7 +183,7 @@
      </div>
      <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3 text-center">
        <br>
-       <p class="bigger">The drop system is composed of a Raspberry Pi 3, a microchip, a servo, and a designed dispenser. Upon the drone’s arrival at a designated waypoint, the single-board computer will trigger the microchip to output a signal. Then. it is read by the servo to turn our dispenser 90 degrees; hence, dropping a single payload.</p>
+       <p class="bigger">The drop system is composed of a Raspberry Pi 3 single-board computer, a microcontroller, a servo motor, and a 3D-printed dispenser. Upon the drone’s arrival at a designated waypoint, the single-board computer will trigger the microcontroller to output a signal; the signal activates the motor and rotates our dispenser 90 degrees, which results in dropping a single payload.</p>
        <br>
      </div>
 
@@ -201,7 +201,7 @@
       </div>
       <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3 text-center">
         <br>
-        <p class="bigger">This test involves Pixy cam in order to increase the accuracy of the our delivery. This Pixy cam will adjust the drone's position corresponding to the waypoint's actual location.</p>
+        <p class="bigger">This test involves a vision sensor to increase the accuracy of the our payload delivery. Once the drone has moved to the GPS coordinates, the vision sensor detects the object on the ground and adjusts the drone's position accordingly.</p>
         <br>
       </div>
 
