@@ -38,8 +38,8 @@
           <li><a href="./software.html"><span class="navbar_links">Software</span></a></li>
           <li><a href="./hardware.html"><span class="navbar_links">Hardware</span></a></li>
           <li><a href="./team.html"><span class="navbar_links">The Team</span></a></li>
-		  <li><a href="./suggestion.html"><span class="navbar_links">Contact Us</span></a></li>
-		  
+		  <li><a href="./contact.html"><span class="navbar_links">Contact Us</span></a></li>
+
           <li class="sdsu_logo margin_left"><img class="width_120 img-responsive" src="./images/sdsu_logo.png" alt="SDSU Logo"></li>
         </ul>
 
@@ -50,8 +50,8 @@
           <li><a href="./software.html"><span class="navbar_links">Software</span></a></li>
           <li><a href="./hardware.html"><span class="navbar_links">Hardware</span></a></li>
           <li><a href="./team.html"><span class="navbar_links">The Team</span></a></li>
-		  <li><a href="./suggestion.html"><span class="navbar_links">Contact Us</span></a></li>
-		  
+		  <li><a href="./contact.html"><span class="navbar_links">Contact Us</span></a></li>
+
           <li class="margin_top margin_left margin_bottom"><img class="width_80" src="./images/sdsu_logo.png" alt="SDSU Logo"></li>
         </ul>
       </div><!-- /.navbar-collapse -->
@@ -68,12 +68,11 @@
         <div class="space-20"></div>
       </div>
     </div>
-    
+
       <div class="col-xs-10 col-xs-offset-1 text-center">
         <div class="space-10"></div>
-    	  <p class="biggest bold">Software</p>
-        <p>Python<br>DroneKit<br>APM Planner 2<br>MAVProxy</p>
-        <p class="bigger bold">To find out more, check out our <span><a class="no_underline" target="_blank" href="https://github.com/drewhaines/resistance-drone">GitHub Page <span><i class="fa fa-github" aria-hidden="true"></span></i></a></span>.
+    	  <p class="bigger bold">Software</p>
+        <p>C Programming Language<br>DroneKit-Python<br>APM Planner 2<br>MAVProxy</p>
         </p>
         <br>
         <div class="space-16"></div>
@@ -81,49 +80,50 @@
 	  <!--div class="container-fluid fixed-bg"-->
       <div class="text-center">
 		 <!--<div class="row white_background">-->
-        <br><img class="img-responsive center-block" src="./images/softwarediagram.png" alt="Software Diagram">
+        <br><img class="img-responsive center-block white_background" src="./images/softwarediagram.png" alt="Software Diagram">
         <br></br>
       </div>
     </div>
   </div>
-  <div class="container-fluid fixed-bg"> 
+  <div class="container-fluid fixed-bg">
   <br></br><br>
   <div class="container-fluid fixed-bg">
   <iv class="row">
-  <div class="col-xs-10 col-xs-offset-1 text-center">
-  <div class="space-10"></div>
-  	<p class="bigger bold">Python</p>
-  	<p>TEXT HERE</p>
+  <div class="col-xs-10 col-xs-offset-1 col-lg-6 col-lg-offset-3 text-center">
+  	<p class="bigger bold">C Programming Language</p>
+  	<p>The C programming language is used on the PIC microcontroller to rotate the servo motor and detect
+       the radio signals from the RF receiver. The data is read by the Python script on the Raspberry Pi.</p>
   <div class="space-16"></div>
   </div>
 <br></br><br>
 <div class="container-fluid fixed-bg">
 <div class="row">
-<div class="col-xs-10 col-xs-offset-1 text-center">
+<div class="col-xs-10 col-xs-offset-1 col-lg-6 col-lg-offset-3 text-center">
 <div class="space-10"></div>
-	<p class="bigger bold">DroneKit</p>
-	<p>A python script writen in this software will be loaded to the Raspberry Pi 3. The script
-	will contain GPS coordinates of each waypoints. The Raspberry Pi then  commands the drone's
-	flight controller on which location to go to. </p>
+	<p class="bigger bold">DroneKit-Python</p>
+	<p>A Python script written using the DroneKit-Python API that runs on the Raspberry Pi 3 single-board computer.
+     The script commands the operations of the drone via the drone's flight controller. </p>
 <div class="space-16"></div>
 </div>
   <br></br><br>
   <div class="container-fluid fixed-bg">
   <div class="row">
-  <div class="col-xs-10 col-xs-offset-1 text-center">
+  <div class="col-xs-10 col-xs-offset-1 col-lg-6 col-lg-offset-3 text-center">
   <div class="space-10"></div>
   	<p class="bigger bold">APM Planner 2</p>
-  	<p>TEXT HERE</p>
+  	<p>An open-source ground station application used to test the Python script. The application
+       provides the ability to simulate the drone's flight, view live data, and initiate commands.</p>
   <div class="space-16"></div>
   </div>
   <br></br><br>
   <div class="container-fluid fixed-bg">
   <div class="row">
-  <div class="col-xs-10 col-xs-offset-1 text-center">
+  <div class="col-xs-10 col-xs-offset-1 col-lg-6 col-lg-offset-3 text-center">
   <div class="space-10"></div>
   	<p class="bigger bold">MAVProxy</p>
-  	<p>TEXT HERE</p>
-  <div class="space-16"></div>
+  	<p>A Command Line Interface (CLI) used to communicate between the Python script and the APM Planner application.</p>
+  <div class="space-32"></div>
+  <p class="bigger bold">To find out more, check out our <span><a class="no_underline" target="_blank" href="https://github.com/drewhaines/resistance-drone">GitHub Page <span><i class="fa fa-github" aria-hidden="true"></span></i></a></span>.
   </div>
 </body>
 </html>

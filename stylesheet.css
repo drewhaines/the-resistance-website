@@ -393,3 +393,24 @@
     width: 100% !important;
     height: 100% !important;
 }
+
+div.gallery {
+    margin-left: 10px;
+    border: 1px solid #c8c8c8;
+    float: left;
+    width: 300px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
